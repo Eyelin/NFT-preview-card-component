@@ -25,8 +25,7 @@ This HTML & CSS only challenge is perfect for anyone just starting out or anyone
 
 ### Links
 
-<!-- - [Solution URL](https://www.frontendmentor.io/solutions/my-first-html-and-css-solution-using-bootstrap-shvj6XFKS4) -->
-
+- [Solution URL](https://www.frontendmentor.io/solutions/nft-preview-card-component-wYl_yX5H93)
 - [Live Site URL](https://eyelin.github.io/NFT-preview-card-component/)
 
 ## My process
