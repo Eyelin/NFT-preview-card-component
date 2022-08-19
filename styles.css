@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  color: #8bacd9;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  min-height: 100vh;
+}
+
+.card {
+  width: 350px;
+  height: 596px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 15px;
+  cursor: pointer;
+  /* center the container vertically/horizontally */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.img-equi {
+  width: 302px;
+  height: 302px;
+  margin: 24px 24px 19px;
+  border-radius: 8px;
+}
+
+.img-cyan {
+  width: 302px;
+  height: 302px;
+  margin: 24px 24px 19px;
+  border-radius: 8px;
+  /* position de cyan image avobe the main image */
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image: none;
+}
+
+.img-cyan:hover {
+  background-color: hsl(178, 100%, 50%, 0.5);
+  background-image: url(images/icon-view.svg);
+  background-repeat: no-repeat;
+  background-position: center; /* Center the image */
+}
+
+div.card-body {
+  margin: 0 24px;
+}
+
+h1 {
+  font-size: 1.375rem;
+  font-weight: 600;
+  line-height: 28px;
+  /* width: 190px; */
+  margin: 0;
+  color: white;
+}
+
+h2 {
+  line-height: 26px;
+  font-size: 1.125rem;
+  font-weight: 300;
+}
+
+.card-details {
+  height: 20px;
+  /* width: 301px; */
+  margin-top: 24px;
+}
+
+.img-eth {
+  float: left;
+  margin: 1px 5px 1px 0px;
+  height: 18px;
+  width: 11px;
+}
+
+div.text-eth {
+  float: left;
+  height: 18px;
+  width: 188px;
+}
+
+.text-eth {
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+  margin: 0;
+  line-height: 20px;
+}
+
+.img-clock {
+  float: left;
+  height: 16px;
+  width: 16px;
+  margin: 1px 5px 3px 0px;
+}
+
+div.text-clock {
+  float: left;
+  height: 18px;
+  width: 76px;
+}
+
+.text-clock {
+  margin: 0;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+hr {
+  height: 1px;
+  border-width: 0;
+  color: hsl(215, 32%, 27%);
+  background-color: hsl(215, 32%, 27%);
+  margin: 24px 0 18px 0;
+}
+
+.card-author {
+  height: 33px;
+  width: 301px;
+}
+
+div.img-avatar {
+  float: left;
+  width: 33px;
+  height: 33px;
+}
+
+img.img-avatar {
+  border-radius: 100%;
+  width: 33px;
+  height: 33px;
+  border: 1px solid #ffffff;
+}
+
+div.text-author {
+  float: left;
+  /* margin: 10px 0;
+  margin-left: 49px; */
+  height: 33px;
+}
+
+p.text-author {
+  margin: 0;
+  line-height: 20px;
+  padding: 6px 0 1px 16px;
+  height: 33px;
+}
+
+span {
+  color: white;
+}
+
+span:hover,
+h1:hover {
+  color: hsl(178, 100%, 50%);
+}
