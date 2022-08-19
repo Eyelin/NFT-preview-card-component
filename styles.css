@@ -16,16 +16,10 @@ body {
   background-color: hsl(216, 50%, 16%);
   border-radius: 15px;
   cursor: pointer;
-  /* center the container vertically/horizontally */
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%); */
 }
 
-.img-equi {
+.img-equi,
+.img-cyan {
   width: 302px;
   height: 302px;
   margin: 24px 24px 19px;
@@ -33,10 +27,6 @@ body {
 }
 
 .img-cyan {
-  width: 302px;
-  height: 302px;
-  margin: 24px 24px 19px;
-  border-radius: 8px;
   /* position de cyan image avobe the main image */
   position: absolute;
   top: 0;
@@ -51,23 +41,22 @@ body {
   background-position: center; /* Center the image */
 }
 
-div.card-body {
+.card-body {
   margin: 0 24px;
 }
 
 h1 {
+  color: white;
   font-size: 1.375rem;
   font-weight: 600;
   line-height: 28px;
-  /* width: 190px; */
   margin: 0;
-  color: white;
 }
 
 h2 {
-  line-height: 26px;
   font-size: 1.125rem;
   font-weight: 300;
+  line-height: 26px;
 }
 
 .card-details {
@@ -92,8 +81,8 @@ div.text-eth {
 .text-eth {
   color: hsl(178, 100%, 50%);
   font-weight: 600;
-  margin: 0;
   line-height: 20px;
+  margin: 0;
 }
 
 .img-clock {
@@ -143,8 +132,6 @@ img.img-avatar {
 
 div.text-author {
   float: left;
-  /* margin: 10px 0;
-  margin-left: 49px; */
   height: 33px;
 }
 
@@ -186,11 +173,7 @@ h1:hover {
     height: 543px;
   }
 
-  .img-equi {
-    width: 278px;
-    height: 278px;
-  }
-
+  .img-equi,
   .img-cyan {
     width: 278px;
     height: 278px;
