@@ -25,8 +25,9 @@ A perfect first challenge if you're new to HTML and CSS. The card layout doesn't
 
 ### Links
 
-- [Solution URL](https://www.frontendmentor.io/solutions/my-first-html-and-css-solution-using-bootstrap-shvj6XFKS4)
-- [Live Site URL](https://eyelin.github.io/QR-code-component/)
+<!-- - [Solution URL](https://www.frontendmentor.io/solutions/my-first-html-and-css-solution-using-bootstrap-shvj6XFKS4) -->
+
+- [Live Site URL](https://eyelin.github.io/NFT-preview-card-component/)
 
 ## My process
 
